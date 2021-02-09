@@ -1,0 +1,8 @@
+fragment PostListItem on Post {
+  ...PostBase
+  textSnippet
+  creatorId
+  creator {
+    ...User
+  }
+}

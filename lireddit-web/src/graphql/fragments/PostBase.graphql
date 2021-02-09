@@ -1,0 +1,8 @@
+fragment PostBase on Post {
+  id
+  createdAt
+  updatedAt
+  title
+  points
+  voteStatus
+}

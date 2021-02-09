@@ -1,0 +1,9 @@
+query Post($id: Int!) {
+  post(id: $id) {
+    ...PostBase
+    text
+    creator {
+      ...User
+    }
+  }
+}
